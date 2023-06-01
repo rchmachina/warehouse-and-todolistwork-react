@@ -23,7 +23,7 @@ export const MENU: IMenuItem[] = [
   {
     name: i18n.t('menusidebar.label.blank'),
     icon: 'fas fa-wrench nav-icon',
-    path: '/blank'
+    path: '/infobarang'
   },
   {
     name: i18n.t('menusidebar.label.mainMenu'),
@@ -73,7 +73,7 @@ const MenuSidebar = () => {
           height={33}
           rounded
         />
-        <span className="brand-text font-weight-light">AdminLTE 3</span>
+        <span className="brand-text font-weight-light">brand Name</span>
       </Link>
       <div className="sidebar">
         <div className="user-panel mt-3 pb-3 mb-3 d-flex">

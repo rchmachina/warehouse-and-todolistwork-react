@@ -1,6 +1,7 @@
 import {SmallBox} from '@app/components';
 import React from 'react';
 import {ContentHeader} from '@components';
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
   return (
@@ -52,17 +53,15 @@ const Dashboard = () => {
                 <div className="icon">
                   <i className="ion ion-person-add" />
                 </div>
-                <a href="/" className="small-box-footer">
-                  More info <i className="fas fa-arrow-circle-right" />
-                </a>
+                <Link to="/infobarang" className='small-box-footer'>More info <i className="fas fa-arrow-circle-right" /></Link>
               </div>
             </div>
             <div className="col-lg-3 col-6">
               <div className="small-box bg-danger">
                 <div className="inner">
-                  <h3>65</h3>
+                  <h3>job progress</h3>
 
-                  <p>Unique Visitors</p>
+                  <p>find all job progress</p>
                 </div>
                 <div className="icon">
                   <i className="ion ion-pie-graph" />
